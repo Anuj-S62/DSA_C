@@ -625,7 +625,7 @@ void sort_by_area(triangle *tr, int n)
 	int high = (length - 1);
 	int low = 0;
 	while (low < high)
-	{/
+	{
 		int idx = maxidx(arr, high+1);
 		swap(&arr[high], &arr[idx]);
 		high--;

@@ -87,7 +87,8 @@ char * convert(char str[], int n){
 }
  
 int main(){
-    char str[]="a*b+c*b-c/i";
+    
+    char str[]="2*4/a^b";
     printf("%s",convert(str,strlen(str)+1));
     return 0;
 }
